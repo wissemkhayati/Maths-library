@@ -86,9 +86,9 @@ public class Math2wc : MonoBehaviour
         return 3.14 * angle / 180.0;
     }
 
-    public static bool SphericalRadar(float radius, float x1, float z1, float x2, float z2)
+    public static bool CircleRadar(float r, float x1, float z1, float x2, float z2)
     {
-        if (Mathf.Sqrt( Mathf.Pow((x1-x2),2) + Mathf.Pow((z1-z2),2) ) < radius)
+        if (Mathf.Sqrt( Mathf.Pow((x1-x2),2) + Mathf.Pow((z1-z2),2) ) < r)
         {
             return true;
         }else
