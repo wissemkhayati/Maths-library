@@ -20,13 +20,6 @@ public class Math2wc: MonoBehaviour {
   return 0;
  }
 
- public static float convertToInterval(float interval, float minA, float maxA, float minB, float maxB) {
-  if ((maxA - minA) != 0) {
-   return (((maxB - minB) / (maxA - minA)) * interval);
-  } else
-   return 0;
- }
-
  public static float min(float[] data) {
   float min = data[0];
   for (int i = 1; i < data.Length; i++) {
