@@ -6,10 +6,6 @@ A bunch of mathematical functions accumulated during my daily development.
 ```
 float convertInto(float x, float a1, float b1, float a2, float b2)
 ```
-* abdcd
-```
-float convertToInterval(float interval, float minA, float maxA, float minB, float maxB)
-```
 * Get minimum value from array
 ```
 float min(float[] data)
@@ -30,11 +26,11 @@ double DegreeToRadian(double angle)
 ```
 bool CircleRadar(float r, float x1, float z1, float x2, float z2)
 ```
-* abdcd
+* Return center width height of a rectangle from its corner's coordinates 
 ```
 DimensionRect GetDimension(Vector2 point1, Vector2 point2)
 ```
-* abdcd
+* Scale with screen 
 ```
 GetScale(int width, int height, Vector2 scalerReferenceResolution, float scalerMatchWidthOrHeight)
 ```
